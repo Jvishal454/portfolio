@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import _default from "../../themes/default";
 
+
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
@@ -151,9 +152,11 @@ export const Span = styled.span`
 `;
 
 export const SubTitle = styled.div`
-  font-size: 20px;
+  font-size: 24px;
   line-height: 32px;
   margin-bottom: 42px;
+  text-align: justify;
+  font-family: 'outfit';
   color: ${({ theme }) => theme.text_primary + 95};
 
   @media (max-width: 960px) {

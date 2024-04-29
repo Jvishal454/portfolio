@@ -6,7 +6,7 @@ export const Bio = {
     "UI/UX Designer",
   ],
   description:
-    "I am a motivated individual, seeking opportunities to utilize my skills and deliver exceptional results & continously enhacne my skills. I specialize in designing user-friendly interfaces and developing robust backend applications. My experience extends to cloud platforms like GCP, Azure & AWS. Let's connect and explore how we can collaborate to build impactful web experiences.",
+    "I specialize in designing user-friendly interfaces and developing robust backend applications. My experience extends to cloud platforms like GCP, Azure & AWS. I am a motivated individual, seeking opportunities to utilize my skills and deliver exceptional results & continously enhacne my skills. Let's connect and explore how we can collaborate to build impactful web experiences.",
   github: "https://github.com/Jvishal454",
   resume:
     "",
