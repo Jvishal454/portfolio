@@ -183,7 +183,7 @@ const ExperienceCard = ({ experience }) => {
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill>⁍ {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
@@ -193,7 +193,7 @@ const ExperienceCard = ({ experience }) => {
             {experience.doc && experience.doc.map((item, index) => (
                 <Points key={index}>
                     {item.split('\n').map((line, index) => (
-                    <Span key={index}>• {line}</Span>
+                    <Span key={index}>‣ {line}</Span>
                     ))}
                 </Points>
                 ))}

@@ -21,18 +21,17 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'dzuokart' ?
-            <ToggleButton active value="dzuokart" onClick={() => setToggle('dzuokart')}>DzuoKart - E-Commerce</ToggleButton>
-            :
-            <ToggleButton value="dzuokart" onClick={() => setToggle('dzuokart')}>Dzuokart - E-Commerce</ToggleButton>
-          }
-          <Divider />
           {toggle === 'gemini' ?
             <ToggleButton active value="gemini" onClick={() => setToggle('gemini')}>Gemini Clone</ToggleButton>
             :
             <ToggleButton value="gemini" onClick={() => setToggle('gemini')}>Gemini Clone</ToggleButton>
           }
-          
+          <Divider />
+          {toggle === 'dzuokart' ?
+            <ToggleButton active value="dzuokart" onClick={() => setToggle('dzuokart')}>DzuoKart - E-Commerce</ToggleButton>
+            :
+            <ToggleButton value="dzuokart" onClick={() => setToggle('dzuokart')}>Dzuokart - E-Commerce</ToggleButton>
+          }      
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects

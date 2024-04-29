@@ -156,6 +156,7 @@ export const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   text-align: justify;
+  text-justify: inter-word;
   font-family: 'outfit';
   color: ${({ theme }) => theme.text_primary + 95};
 
